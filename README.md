@@ -1,9 +1,7 @@
 # Proyecto Urban Grocers 
-# Proyecto Urban Grocers 
-
 ### Contenido
 - Descripción
-- Lista de comprobación
+- Lista de comprobación de pruebas
 - Archivos del Proyecto
 - Recursos
 - Instrucciones para las pruebas
@@ -12,13 +10,11 @@
 
 ### Descripción
 
-Se está comprobando cómo la aplicación Urban Grocers crea kits de productos.
-El objetivo de este proyecto hacer pruebas positivas y negativas para el campo "name" tomando en cuenta sus requisitos en la solicitud de creación de un kit de productos.
-Se revisará que los códigos de respuesta obtenidos coincidan con los esperados y además, en el caso de las pruebas positivas, que el campo "name" en el cuerpo de la respuesta coincida con el de la solicitud enviada.
+Realizar las respectivas validaciones de la aplicación Urban Grocers en la creacion de kits de productos.
+El objetivo general de este proyecto es realizar pruebas positivas y negativas en el campo "name" tomando en cuenta sus requisitos en la solicitud de creación de un kit de productos.
+Además, Se realizarán validaciones en los códigos de respuesta obtenidos verificando que coincidan con los esperados. También, en el caso de las pruebas positivas, que el campo "name" en el cuerpo de la respuesta coincida con el de la solicitud enviada.
 
----
-
-### Lista de comprobación
+### Lista de comprobación de pruebas
 
 | №    | Description                                                                               | ER: | 
 |------|-------------------------------------------------------------------------------------------|-| 
@@ -34,14 +30,13 @@ Se revisará que los códigos de respuesta obtenidos coincidan con los esperados
 
 ### Archivos del Proyecto
 
-- **configuration.py:** Este archivo contiene el URL y las rutas de solicitud. 
-- **data.py:** Este archivo contiene los cuerpos necesarios para las solicitudes. 
-- **sender_stand_request.py:** Este archivo contiene todas las solicitudes para POST para crear una cuenta de usuario y crear un kit.
-- **create_kit_name_kit_test.py:** Este archivo contiene todos los tests.
-- **README.md:** Este archivo incluye una descripción del proyecto. 
+- **configuration.py:** Contiene la URL y las rutas de solicitud. 
+- **data.py:** Contiene los cuerpos necesarios para las solicitudes. 
+- **sender_stand_request.py:** Contiene las solicitudes POST para crear una cuenta de usuario y crear un kit.
+- **create_kit_name_kit_test.py:** Contiene todas las pruebas.
+- **README.md:** Incluye la descripción del proyecto. 
 - **.gitignore:** Incluye los archivos que no se deben subir a los repositorios.
 
----
 
 ### Recursos
 
@@ -51,10 +46,9 @@ Se revisará que los códigos de respuesta obtenidos coincidan con los esperados
 
 **Documentación**
 - URL + /docs/
-  - "Main.User" → "Creación de cuenta”
-  - "Main.Kits" → "Crear un kit”
+- "Main.User" → "Creación de cuenta”
+- "Main.Kits" → "Crear un kit”
 
----
 
 ### Instrucciones 
 
