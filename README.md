@@ -8,10 +8,13 @@ Instrucciones para las pruebas
 Descripción
 Se está comprobando cómo la aplicación Urban Grocers crea kits de productos. El objetivo de este proyecto hacer pruebas positivas y negativas para el campo "name" tomando en cuenta sus requisitos en la solicitud de creación de un kit de productos. Se revisará que los códigos de respuesta obtenidos coincidan con los esperados y además, en el caso de las pruebas positivas, que el campo "name" en el cuerpo de la respuesta coincida con el de la solicitud enviada.
 
-Lista de comprobación
-№	Description	ER:
-1	El número permitido de caracteres (1): kit_body = { "name": "a"}	Código de respuesta: 201 El campo "name" del cuerpo de la respuesta coincide con el campo "name" del cuerpo de la solicitud
-2	El número permitido de caracteres (511): kit_body = { "name":"El valor de prueba para esta comprobación será inferior a"}	Código de respuesta: 201 El campo "name" del cuerpo de la respuesta coincide con el campo "name" del cuerpo de la solicitud
+Lista de comprobación de pruebas
+№	Description	                                                        ER:
+1	El número permitido de caracteres (1): kit_body = { "name": "a"}	Código de respuesta: 201 El campo "name" del cuerpo de la 
+                                                                                respuesta coincide con el campo "name" del cuerpo de la 
+                                                                                solicitud
+2	El número permitido de caracteres (511): kit_body = { "name":"          Código de respuesta: 201 El campo "name" del cuerpo de la         El valor de prueba para esta comprobación será inferior a"}	        respuesta coincide con el campo "name" del cuerpo de la 
+                                                                                solicitud
 3	El número de caracteres es menor que la cantidad permitida (0): kit_body = { "name": "" }	Código de respuesta: 400
 4	El número de caracteres es mayor que la cantidad permitida (512):
 kit_body = { "name":"El valor de prueba para esta comprobación será inferior a” }	Código de respuesta: 400
